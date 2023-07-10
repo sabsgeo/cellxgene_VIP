@@ -40,6 +40,7 @@ git checkout f48d06fb9043771d7370ee9ac0dc9de8ae6ad888 # v1.1.1
 #sed -i 's|anndata>=0.7.0|anndata>=0.7.4|' 'server/requirements.txt'
 sed -i 's|anndata>=0.7.6|anndata==0.7.6|' 'server/requirements.txt'
 sed -i 's|numba>=0.51.2|numba==0.51.2|' 'server/requirements.txt'
+sed -i 's|pandas>=1.0,!=1.1|pandas>=1.1.1|' 'server/requirements.txt'
 #sed -i 's|scanpy==1.4.6|scanpy==1.6.1|' 'server/requirements.txt'
 cd ..
 
